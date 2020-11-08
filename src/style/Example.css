@@ -1,0 +1,61 @@
+.example {
+  display: flex;
+  height: 350px;
+  margin: 10px;
+  width: 370px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  height: 16%;
+  width: fit-content;
+  font-size: 22px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.image {
+  display: flex;
+  height: 200px;
+  width: 300px;
+  margin: 5% 0% 5% 0%;
+  justify-content: center;
+}
+
+.gitLink {
+  height: 25%;
+  width: 420px;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+@media only screen and (max-width:768px) {
+.example {
+    height: 100%;
+}
+
+.examples {
+  display: flex;
+  height: 180px;
+  margin: 10px;
+  width: 370px;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  height: 16%;
+  width: fit-content;
+  font-size: x-large;
+  margin-top: -20px;
+  text-align: center;
+}
+
+.gitLink{
+    font-size: 18px;
+  }
+}

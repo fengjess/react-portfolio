@@ -1,0 +1,33 @@
+.contact {
+  display: flex;
+  height: 90vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  height: 100%;
+  width: 35%;
+  margin-left: 12%;
+  font-size: large;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  height: 100%;
+  width: 48%;
+  margin-right: 10%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+  .right {
+    font-size: 14px;
+  }
+}
